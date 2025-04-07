@@ -7,8 +7,8 @@ import { provideHttpClient } from '@angular/common/http';
 bootstrapApplication(AppComponent, {
   providers: [
     provideAuth0({
-      domain: 'dev-j088v5q6c2la284q.us.auth0.com',
-      clientId: '7Ae56NnXJLctQbKuJRtkVXGtfpL7Hzl9',
+      domain: 'YOUR_domain',
+      clientId: 'YOUR_clientId',
       authorizationParams: {
         redirect_uri: window.location.origin
       }
